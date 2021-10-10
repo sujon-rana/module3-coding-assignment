@@ -1,0 +1,122 @@
+body {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    background-color: #5c0d2a;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #f7b41a;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding: 20px 0px 40px 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+/* brand name */
+.navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: #4b6e37;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list a {
+    color: #721537;
+    text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+
+#nav-list li p {
+    background: #6d1985;
+    padding: 5px;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+h2 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.text-center {
+    margin-bottom: 1px;
+}
+
+#home-tiles .item-text {
+    background: #777272;
+    padding: 30px;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+/* END OF HOME PAGE */
+
+
+
+/* Medium devices only */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand{
+        padding: 10px 0px;
+    }
+}
+
+/* Small devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand{
+        padding: 10px 0px;
+    }
+}
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding: 10px 0px 0px 20px;
+    }
+    .navbar-brand h1 { 
+        padding-top: 10px;
+        font-size: 5vw; 
+    }
+
+    #collapsable-nav a { 
+        font-size: 1.3em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .menu-item-description {
+        text-align: center;;
+    }
+
+}
